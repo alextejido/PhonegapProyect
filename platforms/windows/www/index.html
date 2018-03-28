@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Capture Photo</title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1"/>
+    <script type="text/javascript" charset="utf-8">
+    document.getElementById("cameraTakePicture").addEventListener("click", cameraTakePicture);
+    function cameraTakePicture() {
+     navigator.camera.getPicture(onSuccess, onFail, {
+        quality: 50,
+        destinationType: Camera.DestinationType.DATA_URL
+     });
+
+     function onSuccess(imageData) {
+        var image = document.getElementById('myImage');
+        image.src = "data:image/jpeg;base64," + imageData;
+     }
+
+     function onFail(message) {
+        alert('Failed because: ' + message);
+     }
+  }
+    </script>
+  </head>
+  <body>
+    <button id = "cameraTakePicture">TAKE PICTURE</button>
+<img id = "myImage"></img>
+
+  </body>
+</html>

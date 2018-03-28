@@ -1,0 +1,4 @@
+#Wed Mar 28 20:08:11 CEST 2018
+base.0=D\:\\Proyecto phonegap\\hello\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+renamed.0=classes.dex
+file.0=D\:\\Proyecto phonegap\\hello\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19\\classes.dex
