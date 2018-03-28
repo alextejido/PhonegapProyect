@@ -18,7 +18,7 @@ var app = {
         var image = document.getElementById('myImage');
         image.src = "data:image/jpeg;base64," + imageData;
      }
-//FUNCION POR SI DA ERROR LA CAMARA
+//FUNCION POR SI DA ERROR LA CAMARA, MUESTRA EL MENSAJE CON EL ERROR
      function onFail(message) {
         alert('Failed because: ' + message);
      }
