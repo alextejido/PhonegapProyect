@@ -1,0 +1,9 @@
+La aplicacionconsiste en que, en cuanto se ejecuta, carga un mensaje con el estado de la bateria, un recuadro
+donde muestra la camara y tres botones.
+Un boton es para sacar la foto y los otrs dos son para la vibracion.
+Fuentes:
+https://www.tutorialspoint.com/cordova/cordova_vibration.htm
+http://ngcordova.com/docs/plugins/camera/
+http://docs.phonegap.com/phonegap-build/getting-started/
+https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html
+https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/index.html
